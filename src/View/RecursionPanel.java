@@ -9,6 +9,9 @@ public class RecursionPanel extends JPanel
 {
 private SpringLayout baseLayout;
 private RecursionController baseController;
+private JButton fibonacciButton;
+private JButton factorialButton;
+private JTextArea displayArea;
 
 public RecursionPanel(RecursionController baseController)
 {

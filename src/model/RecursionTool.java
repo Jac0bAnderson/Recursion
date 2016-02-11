@@ -2,7 +2,7 @@ package model;
 
 public class RecursionTool 
 {
-public int getFibNumber(int position)
+public double getFibNumber(double position)
 {
 	//Defensive code against user
 	if(position < 0)
@@ -20,4 +20,20 @@ public int getFibNumber(int position)
 	}
 	
 }
+public double getFactorialNumber(Double position)
+{
+	if(position < 0)
+	{
+		return Integer.MIN_VALUE;
+	}
+	if(position == 0)
+	{
+		return 1;
+	}
+	else
+	{
+		return position * getFactorialNumber(position -1);
+	}
+}
+
 }

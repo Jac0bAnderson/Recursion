@@ -18,7 +18,7 @@ private void setupFrame()
 {
 	this.setContentPane(basePanel);
 	this.setSize(500, 500);
-	this.setTitle("Recursion FrameWork");
+	this.setTitle("1123581321");
 	this.setVisible(true);
 }
 

@@ -20,19 +20,19 @@ public double getFibNumber(double position)
 	}
 	
 }
-public double getFactorialNumber(Double position)
+public double getFactorialNumber(int i)
 {
-	if(position < 0)
+	if(i < 0)
 	{
 		return Integer.MIN_VALUE;
 	}
-	if(position == 0)
+	if(i == 0)
 	{
 		return 1;
 	}
 	else
 	{
-		return position * getFactorialNumber(position -1);
+		return i * getFactorialNumber(i -1);
 	}
 }
 
